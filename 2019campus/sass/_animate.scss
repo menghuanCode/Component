@@ -1,0 +1,65 @@
+@keyframes arrow-down {
+  0% {
+    transform: translateZ(0)
+  }
+
+  to {
+    transform: translate3d(0,.26667rem,0)
+  }
+}
+
+@keyframes p1-light-anim {
+  0% {
+    opacity: 0;
+    transform: translate3d(-1.06667rem,.53333rem,0)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateZ(0)
+  }
+}
+
+@keyframes cube-1-anim {
+  0% {
+    opacity: 0;
+    transform: rotate(-45deg) translateZ(0)
+  }
+
+  to {
+    opacity: 1;
+    transform: rotate(-45deg) translate3d(3.06667rem,0,0)
+  }
+}
+
+@keyframes cube-2-anim {
+  0% {
+    opacity: 0;
+    transform: rotate(-45deg) translateZ(0) scale(.8)
+  }
+
+  to {
+    opacity: .5;
+    transform: rotate(-45deg) translate3d(1.6rem,0,0) scale(.8)
+  }
+}
+
+@keyframes cube-cnt-1-anim {
+  0% {
+    transform: translateZ(0)
+  }
+
+  to {
+    transform: translate3d(.10667rem,-.10667rem,0)
+  }
+}
+
+@keyframes cube-cnt-2-anim {
+  0% {
+    transform: translateZ(0)
+  }
+
+  to {
+    transform: translate3d(.08rem,-.08rem,0)
+  }
+}

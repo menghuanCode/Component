@@ -1,0 +1,114 @@
+@import "util";
+@import "reset";
+
+.h5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transform-origin: 0 0 0;
+  overflow: hidden;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  touch-action: none;
+  z-index: 1;
+}
+
+
+
+.view, .el {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.view {
+  position: absolute;
+}
+
+.handle {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  touch-action: none;
+}
+
+.shop {
+  position: relative;
+}
+
+#shopWrapper {
+  position: relative;
+  top: 0;
+  width: 2045px;
+  height: 748px;
+  overflow: hidden;
+  margin-top: -40px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.74);
+  display: none;
+}
+
+.modal {
+  .wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+#loader {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #ffd200;
+  z-index: 1000;
+  .logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -90px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url("../images/lode_logo.png");
+  }
+  .progress {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90px;
+    height: 1px;
+    margin-left: -45px;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    margin-top: 0px;
+    background-image: none;
+    background-color: #c9c9c9;
+    .rate {
+      background-color: #321807;
+      width: 0%;
+      height: 100%;
+    }
+  }
+}
